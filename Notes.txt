@@ -1,0 +1,25 @@
+La app Juegos de la Noche está lista. Build y lint pasan.
+
+Cómo ejecutar
+npm install
+npm run dev
+Abrí la URL de Vite (por defecto http://localhost:5173).
+
+En esta máquina hace falta el .npmrc con strict-ssl=false por un problema de certificados del entorno.
+
+Estructura
+src/
+  components/     AmbientBackground, GameLayout, GameNavigation, SoundToggle
+  games/
+    Home/         HomeScreen
+    Wheel/        WheelGame, Wheel, WheelResult
+    Cards/        CardsGame, CardDeck, PlayingCard, CardReveal
+  data/           wheelChallenges.ts, cards.ts
+  hooks/          SoundProvider, useSound, useGameNavigation
+  utils/          wheelMath.ts, random.ts
+Dónde editar consignas
+Juego	Archivo
+Ruleta
+src/data/wheelChallenges.ts — sumá objetos en challenges[] de cada categoría
+Cartas
+src/data/cards.ts — sumá objetos a storyCards (y categorías en cardCategories si hace falta)
