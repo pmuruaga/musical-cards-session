@@ -21,9 +21,9 @@ export function GameLayout({ view, onNavigate, onHome, children }: Props) {
         <button
           type="button"
           onClick={onHome}
-          className="font-display text-left text-lg tracking-wide text-[#f0d5b0] transition hover:text-white sm:text-xl"
+          className="font-display max-w-[14rem] text-left text-sm leading-snug tracking-wide text-[#f0d5b0] transition hover:text-white sm:max-w-none sm:text-lg sm:leading-normal"
         >
-          Juegos de la Noche
+          Taller de Canto - Juntadas Musicales
         </button>
 
         <div className="flex flex-wrap items-center justify-end gap-3">

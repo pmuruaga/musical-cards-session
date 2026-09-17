@@ -22,9 +22,9 @@ export function HomeScreen({ onWheel, onCards }: Props) {
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.05 }}
-          className="font-display text-4xl leading-tight text-[#f8ecd8] sm:text-5xl md:text-6xl"
+          className="font-display text-3xl leading-tight text-[#f8ecd8] sm:text-4xl md:text-5xl"
         >
-          Juegos de la Noche
+          Taller de Canto - Juntadas Musicales
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 12 }}

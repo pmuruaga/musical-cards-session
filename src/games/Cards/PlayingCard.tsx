@@ -67,7 +67,7 @@ export function PlayingCard({
           <div className="absolute inset-0 flex flex-col items-center justify-center gap-3">
             <span className="text-3xl opacity-80">♪</span>
             <span className="text-[10px] uppercase tracking-[0.35em] text-[#d4a574]/70">
-              La Noche
+              Juntadas
             </span>
           </div>
         </div>
