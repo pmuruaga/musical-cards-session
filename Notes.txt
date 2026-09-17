@@ -1,4 +1,4 @@
-La app Juegos de la Noche está lista. Build y lint pasan.
+La app Taller de Canto - Juntadas Musicales está lista. Build y lint pasan.
 
 Cómo ejecutar
 npm install

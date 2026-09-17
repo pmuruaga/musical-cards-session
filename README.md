@@ -1,4 +1,4 @@
-# Juegos de la Noche
+# Taller de Canto - Juntadas Musicales
 
 App web para encuentros musicales: **Ruleta** (acción) y **Cartas** (contar).
 
